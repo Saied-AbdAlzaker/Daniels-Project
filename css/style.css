@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Home */
+.home {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .bg-layer {
+    background-color: rgba(04, 04, 04, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.bg-dark {
+    background-color: #040404 !important;
+}
+
+.home-text .text-center h1::after {
+    content: "";
+    animation: typing 10s infinite alternate;
+    -webkit-animation: typing 10s infinite alternate;
+}
+
+@keyframes typing {
+        0% {
+            content: " L|";
+        }
+    
+        1% {
+            content: " La|";
+        }
+    
+        2% {
+            content: " La|";
+        }
+    
+        3% {
+            content: " Lar|";
+        }
+    
+        4% {
+            content: " Larr|";
+        }
+    
+        5% {
+            content: " Larry|";
+        }
+    
+        6% {
+            content: " Larry |";
+            ;
+        }
+    
+        7% {
+            content: " Larry D|";
+        }
+    
+        8% {
+            content: " Larry Da|";
+        }
+    
+        9% {
+            content: " Larry Dan|";
+        }
+    
+        10% {
+            content: " Larry Dani|";
+        }
+    
+        11% {
+            content: " Larry Danie|";
+        }
+    
+        13% {
+            content: " Larry Daniel|";
+        }
+    
+        14% {
+            content: " Larry Daniels|";
+        }
+    
+        15% {
+            content: " Larry Daniels.|";
+        }
+        16% {
+            content: " Larry Daniels.|";
+        }
+        17% {
+            content: " Larry Daniels.|";
+        }
+        18% {
+            content: " Larry Daniels.|";
+        }
+        19% {
+            content: " Larry Daniels.|";
+        }
+        20% {
+            content: " Larry Daniels.|";
+        }
+        21% {
+            content: " Larry Daniel|";
+        }
+        22% {
+            content: " Larry Danie|";
+        }
+        23% {
+            content: " Larry Dani|";
+        }
+        24% {
+            content: " Larry Dan|";
+        }
+        25% {
+            content: " Larry Da|";
+        }
+        26% {
+            content: " Larry D|";
+        }
+        27% {
+            content: " Larry |";
+        }
+        28% {
+            content: " Larry|";
+        }
+        29% {
+            content: " Larry|";
+        }
+        30% {
+            content: " Larr|";
+        }
+        31% {
+            content: " Lar|";
+        }
+        32% {
+            content: " La|";
+        }
+        33% {
+            content: " La|";
+        }
+        34% {
+            content: " L|";
+        }
+        35% {
+            content: " |";
+        }
+        36% {
+            content: " D|";
+        }
+        37% {
+            content: " De|";
+        }
+        38% {
+            content: " Dev|";
+        }
+        39% {
+            content: " Deve|";
+        }
+        40% {
+            content: " Devel|";
+        }
+        41% {
+            content: " Develo|";
+        }
+        42% {
+            content: " Develop|";
+        }
+        43% {
+            content: " Develope|";
+        }
+        44% {
+            content: " Developer.|";
+        }
+        45% {
+            content: " Developer.|";
+        }
+        46% {
+            content: " Developer.|";
+        }
+        47% {
+            content: " Developer.|";
+        }
+        48% {
+            content: " Developer.|";
+        }
+        49% {
+            content: " Developer.|";
+        }
+        50% {
+            content: " Developer|";
+        }
+        51% {
+            content: " Develope|";
+        }
+        52% {
+            content: " Develop|";
+        }
+        53% {
+            content: " Develo|";
+        }
+        54% {
+            content: " Devel|";
+        }
+        55% {
+            content: " Deve|";
+        }
+        56% {
+            content: " Dev|";
+        }
+        57% {
+            content: " De|";
+        }
+        58% {
+            content: " D|";
+        }
+        59% {
+            content: " |";
+        }
+        60% {
+            content: " D|";
+        }
+        61% {
+            content: " De|";
+        }
+        62% {
+            content: " Des|";
+        }
+        63% {
+            content: " Desi|";
+        }
+        64% {
+            content: " Desig|";
+        }
+        65% {
+            content: " Design|";
+        }
+        66% {
+            content: " Designe|";
+        }
+        67% {
+            content: " Designer|";
+        }
+        68% {
+            content: " Designer.|";
+        }
+        69% {
+            content: " Designer.|";
+        }
+        70% {
+            content: " Designer.|";
+        }
+        71% {
+            content: " Designer.|";
+        }
+        72% {
+            content: " Designer.|";
+        }
+        73% {
+            content: " Designer.|";
+        }
+        74% {
+            content: " Designer.|";
+        }
+        75% {
+            content: " Designer.|";
+        }
+        76% {
+            content: " Designer|";
+        }
+        77% {
+            content: " Designe|";
+        }
+        78% {
+            content: " Designe|";
+        }
+        79% {
+            content: " Design|";
+        }
+        80% {
+            content: " Design|";
+        }
+        81% {
+            content: " Desig|";
+        }
+        82% {
+            content: " Desig|";
+        }
+        83% {
+            content: " Desig|";
+        }
+        84% {
+            content: " Desi|";
+        }
+        85% {
+            content: " Desi|";
+        }
+        86% {
+            content: " Des|";
+        }
+        87% {
+            content: " Des|";
+        }
+        89% {
+            content: " Des|";
+        }
+        90% {
+            content: " De|";
+        }
+        91% {
+            content: " De|";
+        }
+        92% {
+            content: " D|";
+        }
+        93% {
+            content: " D|";
+        }
+        94% {
+            content: " |";
+        }
+        100% {
+            content: " ";
+        }
+}
+
+/* About */
+#about .btn-dark:hover{
+    background-color: #fff;
+    color: #040404;
+}
+
+#about .btn-light:hover{
+    background-color: #040404;
+    color: #fff;
+}
+
+/* Services */
+#services i:hover{
+    background-color: #040404;
+}
+
+/* Portfolio */
+.nav-item button {
+    color: black;
+    margin: 0 10px;
+    border-radius: 30px !important;
+    transition: all 0.3s;
+}
+
+.nav-item button.active {
+    color: white;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.work-item .layer {
+    background-color: rgba(0, 0, 0, 0.567) !important;
+    transition: opacity 0.5s;
+
+}
+
+.work-item:hover .layer {
+    opacity: 1 !important;
+}
+
+#portfolio .work-item img {
+    transition: 0.5s;
+}
+
+#portfolio .work-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Client */
+#clients h3:after {
+    content: '';
+    width: 20%;
+    height: 10px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -3px;
+    left: 40%;
+    z-index: -1;
+}
+#clients button{
+    background-color: white;
+    width: 0.2%;
+    height: 0.2%;
+    padding: .5%;
+    border: 1px solid #040404;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 50px;
+}
+
+/* blog */
+#blog h3:after {
+    content: '';
+    width: 20%;
+    height: 10px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -3px;
+    left: 40%;
+    z-index: -1;
+}
+
+#blog button {
+    background-color: white;
+    width: 0.2%;
+    height: 0.2%;
+    padding: .5%;
+    border: 1px solid #040404;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 60px;
+}
+
+/* Contact */
+#contact .btn-dark:hover {
+    background-color: #fff;
+    color: #040404;
+}
+
+#contact h3:after {
+    content: '';
+    width: 20%;
+    height: 10px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -3px;
+    left: 40%;
+    z-index: -1;
+}
